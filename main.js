@@ -26,7 +26,6 @@ fight (fighter1, fighter2){
 }
 }
 
-
 let fighter1 = new p1("Ben", 0, "p1")
 let fighter2 = new p2("Ali", 0, "p2")
 console.log(fighter1.name + " entre en scène.")
