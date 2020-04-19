@@ -1,3 +1,4 @@
+
 class Guerrier {
 	constructor(_name, _xp, _type, _level){
 		this.name = _name
