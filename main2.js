@@ -1,3 +1,4 @@
+console.log("Le tournoi vas bientot commencer.")
 
 class Guerrier {
 	constructor(_name, _xp, _type, _level){
