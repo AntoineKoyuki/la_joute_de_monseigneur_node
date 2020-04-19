@@ -31,3 +31,17 @@ let fighter2 = new p2("Ali", 0, "p2")
 console.log(fighter1.name + " entre en scène.")
 let arena = new Arena()
 arena.fight(fighter1, fighter2)
+
+
+class Tournament {
+	constructor(_ListFighter) {
+		this.listFighter = _ListFighter
+		this.random1 = 0
+		this.random2 = 0
+		this.start()
+	}
+
+	start() {
+		
+	}
+}
