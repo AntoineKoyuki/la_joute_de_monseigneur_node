@@ -42,6 +42,16 @@ class Tournament {
 	}
 
 	start() {
-		
+		while(1) {
+      this.verifFighter();
+      if (this.listFighter.length == 1) {
+        console.log(this.listFighter[0].name + " a gagné !")
+        break;
+      }
+      this.random1 =  Math.floor(Math.random() * Math.floor(this.listFighter.length));
+      this.random2 =  Math.floor(Math.random() * Math.floor(this.listFighter.length));
+      if (this.random1 != this.random2)
+        this.createFight(this.random1, this.random2);
+    }
+  }
 	}
-}
